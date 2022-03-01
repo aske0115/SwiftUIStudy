@@ -21,7 +21,7 @@ struct ContentView: View {
     @State private var text: String = "Welcome to SwiftUI"
     
     var body: some View {
-        VStack {
+        NavigationView {
             VStack {
                 Text("Time Count = \(timerData.timeCount)")
                     .font(.largeTitle)
@@ -52,9 +52,16 @@ struct ContentView: View {
                 }
                 .padding()
                 .foregroundColor(Color("AccentColor"))
-                
+                NavigationLink {
+                    SecondView(timeData: timerData)
+                } label: {
+                    Text("Show Next View")
+                }
+                .padding()
             }
+            
         }
+        
     }
     
     func resetCount() {
