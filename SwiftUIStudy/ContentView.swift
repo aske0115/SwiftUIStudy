@@ -20,15 +20,20 @@ struct ContentView: View {
     var body: some View {
         VStack {
             VStack {
-                Text("Hello, world!")
+                Spacer()
+                Text(text)
                     .font(.largeTitle)
                     .fontWeight(.heavy)
                     .rotationEffect(.degrees(self.rotation))
                     .animation(.easeInOut(duration: 3), value: rotation)
                     .foregroundColor(self.colors[colorIndex])
+                Spacer()
+                Divider()
                 Slider(value: $rotation, in: 0...360, step: 0.1)
+                    .padding()
                 TextField("Enter text here", text:$text)
                     .textFieldStyle(.roundedBorder)
+                    .padding()
                    
                 Picker(selection: $colorIndex, label: Text("Color")) {
                     ForEach (0..<colorNames.count) {
@@ -36,6 +41,7 @@ struct ContentView: View {
                             .foregroundColor(self.colors[$0])
                     }
                 }
+                .padding()
                 .foregroundColor(Color("AccentColor"))
                 
             }
