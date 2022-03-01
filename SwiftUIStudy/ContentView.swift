@@ -6,8 +6,11 @@
 //
 
 import SwiftUI
+import Combine
 
 struct ContentView: View {
+    
+    @ObservedObject var timerData: TimeData = TimeData()
     
     
     var colors: [Color] = [.black, .red, .green, .blue, .pink]
@@ -20,6 +23,12 @@ struct ContentView: View {
     var body: some View {
         VStack {
             VStack {
+                Text("Time Count = \(timerData.timeCount)")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                Button(action:resetCount) {
+                    Text("Reset Count")
+                }
                 Spacer()
                 Text(text)
                     .font(.largeTitle)
@@ -46,6 +55,10 @@ struct ContentView: View {
                 
             }
         }
+    }
+    
+    func resetCount() {
+        timerData.resetCount()
     }
 }
 
