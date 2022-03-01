@@ -10,7 +10,7 @@ import Combine
 
 struct SecondView: View {
     
-    @ObservedObject var timeData: TimeData
+    @EnvironmentObject var timeData: TimeData
     
     var body: some View {
         VStack() {
@@ -25,6 +25,6 @@ struct SecondView: View {
 
 struct SecondView_Previews: PreviewProvider {
     static var previews: some View {
-        SecondView(timeData: TimeData())
+        SecondView().environmentObject(TimeData())
     }
 }

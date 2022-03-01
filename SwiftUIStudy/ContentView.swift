@@ -10,7 +10,7 @@ import Combine
 
 struct ContentView: View {
     
-    @ObservedObject var timerData: TimeData = TimeData()
+    @EnvironmentObject var timerData: TimeData
     
     
     var colors: [Color] = [.black, .red, .green, .blue, .pink]
@@ -53,7 +53,7 @@ struct ContentView: View {
                 .padding()
                 .foregroundColor(Color("AccentColor"))
                 NavigationLink {
-                    SecondView(timeData: timerData)
+                    SecondView()
                 } label: {
                     Text("Show Next View")
                 }
@@ -71,6 +71,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environmentObject(TimeData())
     }
 }
