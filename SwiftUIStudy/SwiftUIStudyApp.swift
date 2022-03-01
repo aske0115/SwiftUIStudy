@@ -6,12 +6,15 @@
 //
 
 import SwiftUI
-
+import Combine
 @main
 struct SwiftUIStudyApp: App {
+    
+    let timerData = TimeData()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(timerData)
         }
     }
 }
