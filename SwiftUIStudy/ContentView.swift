@@ -53,7 +53,7 @@ struct ContentView: View {
                 .padding()
                 .foregroundColor(Color("AccentColor"))
                 NavigationLink {
-                    SecondView()
+                    SecondView() //
                 } label: {
                     Text("Show Next View")
                 }
