@@ -55,7 +55,7 @@ struct ContentView: View {
                 NavigationLink {
                     SecondView() //
                 } label: {
-                    Text("Show Next View")
+                    Text("Show Next View!!!!!!")
                 }
                 .padding()
             }
