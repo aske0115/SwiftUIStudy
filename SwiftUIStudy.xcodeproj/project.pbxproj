@@ -16,6 +16,7 @@
 		D09570E427771BBA008B0708 /* SwiftUIStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09570E327771BBA008B0708 /* SwiftUIStudyTests.swift */; };
 		D09570EE27771BBB008B0708 /* SwiftUIStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09570ED27771BBB008B0708 /* SwiftUIStudyUITests.swift */; };
 		D09570F027771BBB008B0708 /* SwiftUIStudyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09570EF27771BBB008B0708 /* SwiftUIStudyUITestsLaunchTests.swift */; };
+		D0CB67D927E6ED9E00C5A0F0 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CB67D827E6ED9E00C5A0F0 /* StackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		D09570E927771BBA008B0708 /* SwiftUIStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09570ED27771BBB008B0708 /* SwiftUIStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStudyUITests.swift; sourceTree = "<group>"; };
 		D09570EF27771BBB008B0708 /* SwiftUIStudyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStudyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0CB67D827E6ED9E00C5A0F0 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				D09570D827771BBA008B0708 /* Preview Content */,
 				D04B5DF327CE0B4A0008C0CE /* TimeData.swift */,
 				D04B5DF527CE0DBC0008C0CE /* SecondView.swift */,
+				D0CB67D827E6ED9E00C5A0F0 /* StackView.swift */,
 			);
 			path = SwiftUIStudy;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				D04B5DF427CE0B4A0008C0CE /* TimeData.swift in Sources */,
 				D04B5DF627CE0DBC0008C0CE /* SecondView.swift in Sources */,
 				D09570D327771BB8008B0708 /* SwiftUIStudyApp.swift in Sources */,
+				D0CB67D927E6ED9E00C5A0F0 /* StackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
