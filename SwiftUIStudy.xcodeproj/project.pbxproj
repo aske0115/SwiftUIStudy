@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D04B5DF427CE0B4A0008C0CE /* TimeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B5DF327CE0B4A0008C0CE /* TimeData.swift */; };
 		D04B5DF627CE0DBC0008C0CE /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B5DF527CE0DBC0008C0CE /* SecondView.swift */; };
+		D078AB8827E8A9A400DEF99E /* AlignmentGuideTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D078AB8727E8A9A400DEF99E /* AlignmentGuideTools.swift */; };
 		D09570D327771BB8008B0708 /* SwiftUIStudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09570D227771BB8008B0708 /* SwiftUIStudyApp.swift */; };
 		D09570D527771BB8008B0708 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09570D427771BB8008B0708 /* ContentView.swift */; };
 		D09570D727771BBA008B0708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D09570D627771BBA008B0708 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		D04B5DF327CE0B4A0008C0CE /* TimeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeData.swift; sourceTree = "<group>"; };
 		D04B5DF527CE0DBC0008C0CE /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		D078AB8727E8A9A400DEF99E /* AlignmentGuideTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuideTools.swift; sourceTree = "<group>"; };
 		D09570CF27771BB8008B0708 /* SwiftUIStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09570D227771BB8008B0708 /* SwiftUIStudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStudyApp.swift; sourceTree = "<group>"; };
 		D09570D427771BB8008B0708 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				D04B5DF327CE0B4A0008C0CE /* TimeData.swift */,
 				D04B5DF527CE0DBC0008C0CE /* SecondView.swift */,
 				D0CB67D827E6ED9E00C5A0F0 /* StackView.swift */,
+				D078AB8727E8A9A400DEF99E /* AlignmentGuideTools.swift */,
 			);
 			path = SwiftUIStudy;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			files = (
 				D09570D527771BB8008B0708 /* ContentView.swift in Sources */,
 				D04B5DF427CE0B4A0008C0CE /* TimeData.swift in Sources */,
+				D078AB8827E8A9A400DEF99E /* AlignmentGuideTools.swift in Sources */,
 				D04B5DF627CE0DBC0008C0CE /* SecondView.swift in Sources */,
 				D09570D327771BB8008B0708 /* SwiftUIStudyApp.swift in Sources */,
 				D0CB67D927E6ED9E00C5A0F0 /* StackView.swift in Sources */,

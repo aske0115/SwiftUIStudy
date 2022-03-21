@@ -14,7 +14,7 @@ struct SwiftUIStudyApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView().environmentObject(timerData)
+            AlignmentGuideView().environmentObject(timerData)
         }
     }
 }
