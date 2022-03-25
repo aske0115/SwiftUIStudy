@@ -22,7 +22,7 @@ struct StackView: View {
                 .foregroundColor(.red)
                 .frame(width: 220, height: 50, alignment: .center)
                 .alignmentGuide(.leading) { _ in
-                    return -80
+                    return -90
                 }
             Rectangle()
                 .foregroundColor(.red)
